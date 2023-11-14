@@ -1,0 +1,10 @@
+1. DirectX
+  1) input assembler : 정점 정보를 받아 topology를 구성한다.
+  2) vertex shader : 좌표계 변환을 통 정점을 ndc 공간으로 이동시킨다.
+  3) hull shader
+  4) tesselator
+  5) domain shader
+  6) geometry shader
+  7) resterizer : interpolation을 통해 선분을 쪼개 정점들로 변환한다.
+  8) pixel shader : 최종적인 색을 결정한다.
+  9) output merger
